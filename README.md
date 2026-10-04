@@ -2,7 +2,7 @@
 ## Devlogs
 ### W1
 1. When the camera is no longer a child of the cat, it does not move along the cat. Because the script only moves the cat.
-2. [MyItchLink](https://pdu31.itch.io/)
+2. [ItchLink](https://pdu31.itch.io/week1activity)
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
