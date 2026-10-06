@@ -5,7 +5,9 @@
 2. [ItchLink](https://pdu31.itch.io/week1activity)
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. Because they represent the intensity of each color, which is a continuous value.  
+2. Because it represents the number of times the ball bounces, and the number of bounces is always an integer.  
+3. The error showed that the syntax was incorrect because a semicolon was missing at the end of the statement.
 
 ## Open-Source Assets
 ### W1
