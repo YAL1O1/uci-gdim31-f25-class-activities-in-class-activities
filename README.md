@@ -9,6 +9,15 @@
 2. Because it represents the number of times the ball bounces, and the number of bounces is always an integer.  
 3. The error showed that the syntax was incorrect because a semicolon was missing at the end of the statement.
 
+### W3
+Table 16
+#### Activity1
+1. input int and bool, return string
+2. input float, return void
+3. input float, return bool
+### Acitivity2
+I think of a class as a person: a complete profile of traits and abilities that exists only on paper. A Component is the job that person gets hired for — the moment they are hired (instantiated), the profile becomes a working barista, cashier, or guard. Member variables are the person's traits, like charm or stamina. Methods are the full abilities they can perform, like making latte art or operating the register.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
