@@ -15,8 +15,10 @@ Table 16
 1. input int and bool, return string
 2. input float, return void
 3. input float, return bool
-### Acitivity2
+### Activity2
 I think of a class as a person: a complete profile of traits and abilities that exists only on paper. A Component is the job that person gets hired for — the moment they are hired (instantiated), the profile becomes a working barista, cashier, or guard. Member variables are the person's traits, like charm or stamina. Methods are the full abilities they can perform, like making latte art or operating the register.
+### Activity3
+1. Because the color is repeatedly multiplied by 1.5f until it reaches white. However, if the ball's original color is black, it won't get brighter because it remains black even when multiplied by 1.5f.
 
 ## Open-Source Assets
 ### W1
