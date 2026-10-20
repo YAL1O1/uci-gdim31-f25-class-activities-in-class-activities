@@ -15,10 +15,14 @@ Table 16
 1. input int and bool, return string
 2. input float, return void
 3. input float, return bool
-### Activity2
+#### Activity2
 I think of a class as a person: a complete profile of traits and abilities that exists only on paper. A Component is the job that person gets hired for — the moment they are hired (instantiated), the profile becomes a working barista, cashier, or guard. Member variables are the person's traits, like charm or stamina. Methods are the full abilities they can perform, like making latte art or operating the register.
-### Activity3
+#### Activity3
 1. Because the color is repeatedly multiplied by 1.5f until it reaches white. However, if the ball's original color is black, it won't get brighter because it remains black even when multiplied by 1.5f.
+
+### W4
+1. I added Rigidbodies to Cat and SoccerBall because they need physics simulation. And I checked Goal's Is Trigger so that the soccer ball can pass through it while triggering an event.
+2. I realized that I accidentally assigned _timeText to _pointText. So I fixed the mistake.
 
 ## Open-Source Assets
 ### W1
