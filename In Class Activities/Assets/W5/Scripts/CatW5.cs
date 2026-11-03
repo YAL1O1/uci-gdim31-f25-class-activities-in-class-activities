@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CatW5 : MonoBehaviour
 {
@@ -43,8 +44,16 @@ public class CatW5 : MonoBehaviour
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
-        
+        Vector3 direction = Vector3.zero;
+        if (Keyboard.current.wKey.isPressed)
+            direction += Vector3.forward;
+        if (Keyboard.current.sKey.isPressed)
+            direction += Vector3.back;
+
+        Vector3 translation = direction * _moveSpeed * Time.deltaTime * (_flipWSControls ? -1 : 1);
+        transform.Translate(translation);
+
+
 
 
         // STEP 1 & 2 ---------------------------------------------------------

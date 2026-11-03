@@ -24,6 +24,9 @@ I think of a class as a person: a complete profile of traits and abilities that 
 1. I added Rigidbodies to Cat and SoccerBall because they need physics simulation. And I checked Goal's Is Trigger so that the soccer ball can pass through it while triggering an event.
 2. I realized that I accidentally assigned _timeText to _pointText. So I fixed the mistake.
 
+### W6
+We need to hold a Transform so that we can make the deer follow its position even if it moves. And then we need to call methods on the NavMeshAgent component every frame in the Update() method, so we'd better hold it as a member variable, avoiding getting the component every frame. In the Update() method, we would need to update the destination to the target's current position.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
