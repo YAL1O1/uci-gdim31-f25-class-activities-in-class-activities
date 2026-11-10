@@ -27,6 +27,23 @@ I think of a class as a person: a complete profile of traits and abilities that 
 ### W6
 We need to hold a Transform so that we can make the deer follow its position even if it moves. And then we need to call methods on the NavMeshAgent component every frame in the Update() method, so we'd better hold it as a member variable, avoiding getting the component every frame. In the Update() method, we would need to update the destination to the target's current position.
 
+### W7
+#### Activity1:
+I was responsible for the "General C# coding" category and collaborated with Jelena Song.
+[GoogleDoc Link](https://docs.google.com/document/d/1W83E18EwXXSdkScO6OmRU6EeHu7ACjFLijvjSUNB8QA/edit?usp=sharing)
+#### Activity2:
+Member variables:
+- A serialized float variable to store the speed.
+- A serialized Cat component as the chase target, which can be assigned in the Inspector.
+
+Methods and what they do:
+- Update(): Move toward the Cat every frame.
+- public Stop(): Set enabled to false to stop running Update().
+- public StartChasing(): Set enabled to true to resume running Update().
+- Start(): Call StartChasing() to make the bat start chasing immediately when the game begins.
+
+Partners：Patrick Du, Xiangyi Li, Xingyue Zhang
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
