@@ -44,6 +44,9 @@ Methods and what they do:
 
 Partners：Patrick Du, Xiangyi Li, Xingyue Zhang
 
+### W8
+The code moves the Muskrat in a fixed world-space direction instead of moving it forward based on its transform's rotation.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
